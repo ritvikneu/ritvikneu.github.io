@@ -1,19 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
 
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -165,14 +150,7 @@
     background: var(--smoky-black);
   }
   
-  
-  
-  
-  
-  /*-----------------------------------*\
-    #REUSED STYLE
-  \*-----------------------------------*/
-  
+
   .sidebar,
   article {
     background: var(--eerie-black-2);
@@ -914,8 +892,10 @@
     color: var(--light-gray);
     font-weight: var(--fw-300);
     line-height: 1.6;
+    list-style-type: disc
   }
-  
+
+
   
   /**
    * skills 
