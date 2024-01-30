@@ -1013,8 +1013,9 @@
   
   .project-list {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 30px;
+    /* get 5 columns */
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+    gap: 10px;
     margin-bottom: 10px;
   }
   
@@ -1964,11 +1965,12 @@
   
   
     /**
-     * PORTFOLIO
+     * Skills
      */
   
     .project-list {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(5, 1fr);
+      row-gap: 25px;
     }
   
   
@@ -2135,9 +2137,9 @@
   
 
     .image-container {
-      width: 30%; /* Adjust the percentage as needed */
-      height: 30%;
-      border-radius: 100px;
+      width: 10px; 
+      height: 15px;
+      border-radius: 10px;
     }
 
   }
