@@ -321,14 +321,14 @@
   
   .sidebar {
     margin-bottom: 15px;
-    max-height: 112px;
+    max-height: 212px;
     overflow: hidden;
     transition: var(--transition-2);
   }
   
-  .sidebar.active {
-    max-height: 405px;
-  }
+  /* .sidebar.active {
+    max-height: 2005px;
+  } */
   
   .sidebar-info {
     position: relative;
@@ -342,6 +342,16 @@
     background: var(--bg-gradient-onyx);
     border-radius: 20px;
   }
+
+  .avatar-img {
+    max-width: 100%;
+
+    max-height: auto;
+    width: 100px;
+    height: 100px;
+    display: block; /* Remove any extra space below the image */
+    margin: auto; /* Center the image */
+}
   
   .info-content .name {
     color: var(--white-2);
