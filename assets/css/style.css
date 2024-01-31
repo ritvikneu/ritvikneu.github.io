@@ -1147,7 +1147,7 @@
   }
   
   .blog-posts-list {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr;
     gap: 20px;
   }
@@ -1620,10 +1620,10 @@
   
     /* testimonials modal */
   
-    .modal-container {
+    /* .modal-container {
       padding: 20px;
-    }
-  
+    } */
+/*   
     .testimonials-modal {
       display: flex;
       justify-content: flex-start;
@@ -1631,7 +1631,7 @@
       gap: 25px;
       padding: 30px;
       border-radius: 20px;
-    }
+    } */
   
     .modal-img-wrapper {
       display: flex;
