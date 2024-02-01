@@ -1597,6 +1597,7 @@
     .content-card {
       padding: 30px;
       padding-top: 25px;
+      /* height: 100px; */
     }
   
     .testimonials-avatar-box {
@@ -1614,8 +1615,8 @@
     }
   
     .testimonials-text {
-      line-clamp: 2;
-      -webkit-line-clamp: 2;
+      line-clamp: 4;
+      -webkit-line-clamp: 4;
     }
   
     /* testimonials modal */
