@@ -135,6 +135,31 @@ for (let i = 0; i < formInputs.length; i++) {
 }
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('[data-form]');
+  const acknowledgment = document.querySelector('[data-acknowledgment]');
+
+  form.addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      // Simulate sending email (replace with your server-side logic)
+      // For demonstration purposes, we'll just show an acknowledgment message
+      acknowledgment.textContent = 'Message sent successfully!';
+      acknowledgment.style.color = 'green';
+
+      // Clear form fields after acknowledgment
+      form.reset();
+
+      // Hide acknowledgment after 5 seconds
+      setTimeout(function () {
+          acknowledgment.textContent = '';
+      }, 5000);
+  });
+});
+
+
+
+
 
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
