@@ -142,6 +142,9 @@ document.addEventListener('DOMContentLoaded', function () {
   form.addEventListener('submit', function (event) {
       event.preventDefault();
 
+      // Call sendEmail function
+      // sendEmail();
+
       // Simulate sending email (replace with your server-side logic)
       // For demonstration purposes, we'll just show an acknowledgment message
       acknowledgment.textContent = 'Message sent successfully!';
@@ -156,8 +159,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }, 5000);
   });
 });
-
-
 
 
 
